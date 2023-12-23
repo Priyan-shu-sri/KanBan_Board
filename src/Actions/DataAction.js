@@ -4,7 +4,7 @@ export const fetchAllData = () => async (dispatch) =>{
     try {
         dispatch({type : 'DATA_REQUEST'})
     
-        const {data} = await axios.get("https://api.quicksell.co/v1/internal/frontend-assignment/");
+        const {data} = await axios.get(" https://tfyincvdrafxe7ut2ziwuhe5cm0xvsdu.lambda-url.ap-south-1.on.aws/ticketAndUsers");
 
         dispatch({type : 'DATA_SUCCESS', payload : data});
 
